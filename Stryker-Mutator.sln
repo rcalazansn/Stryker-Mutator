@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrykerMutatorTests", "test\StrykerMutatorTests\StrykerMutatorTests.csproj", "{309F7D77-5EBC-4546-B50C-863809D587AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6C4590C2-75F1-4742-92F0-A1174F8304DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47D439A9-26C0-4E1D-9C45-3D452522F472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{785DF985-B5AE-4BA7-856D-424A47DE37AA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{7764ABF9-3E76-4010-B4AA-EECD3AB0D3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrykerMutator.Domain", "src\StrykerMutator.Domain\StrykerMutator.Domain.csproj", "{DD787127-D24A-46CF-91AC-F824AE0E55F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{309F7D77-5EBC-4546-B50C-863809D587AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309F7D77-5EBC-4546-B50C-863809D587AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309F7D77-5EBC-4546-B50C-863809D587AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309F7D77-5EBC-4546-B50C-863809D587AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD787127-D24A-46CF-91AC-F824AE0E55F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD787127-D24A-46CF-91AC-F824AE0E55F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD787127-D24A-46CF-91AC-F824AE0E55F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD787127-D24A-46CF-91AC-F824AE0E55F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{309F7D77-5EBC-4546-B50C-863809D587AB} = {7764ABF9-3E76-4010-B4AA-EECD3AB0D3A6}
+		{7764ABF9-3E76-4010-B4AA-EECD3AB0D3A6} = {6C4590C2-75F1-4742-92F0-A1174F8304DA}
+		{DD787127-D24A-46CF-91AC-F824AE0E55F8} = {47D439A9-26C0-4E1D-9C45-3D452522F472}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725E23FF-8E56-4C73-BC48-08622DC17CA9}
+	EndGlobalSection
+EndGlobal
